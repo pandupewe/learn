@@ -51,6 +51,7 @@ table {
 CSS Reset End
 */
 
+
 body {
     margin: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -99,25 +100,53 @@ body {
     padding: 24px;
   }
 
-  .main-content .form-section {
+  .container{
     display: flex;
-    justify-content: space-evenly;
-    align-items: start;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
   }
 
-  .main-content .form-section form,
-  .main-content .form-section div {
+  .about-us{
+
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .profile-wrapper{
+    display: flex;
+    align-items: flex-start;
     width: 100%;
-  }
-
-  .img-slideshow {
-    width: 100%;
-  }
-
-  .slide-wrapper{
     margin: 30px 0;
   }
 
+  .profile-section{
+    width: 100%;
+    margin: 10px;
+    
+  }
+
+  .profile-section > h3{
+    font-size: 20px;
+    border-bottom: 2px solid black;
+  }
+  
+  .profile-section > img{
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .team-image > img{
+    border-radius: 100px;
+  }
+
+  .clear{
+    clear: both;
+  }
+
+  
   @media only screen and (max-width: 600px) {
     .header-wrapper {
       flex-direction: column;
@@ -136,4 +165,20 @@ body {
     .header-wrapper > .menu > button {
         width: 50%;
       }
+      
+    .profile-wrapper {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+
+     
+    .profile-wrapper > img {
+      width: 80%;
+    }
+
+    #ganjil{
+      flex-direction: column-reverse;
+    }
+
   }
