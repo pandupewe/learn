@@ -17,8 +17,8 @@ body {
   }
 
   .header-wrapper > .menu > button {
-    background-color: yellow;
-    padding: 8px 16px;
+    background-color: lightgoldenrodyellow;
+    padding: 7px 16px;
     margin: 5px 10px;
     border: 1px solid gray;
     border-radius: 15px;
@@ -60,6 +60,31 @@ body {
 
   .img-slideshow {
     width: 100%;
+  }
+
+  .headquarter-wrapper {
+    display: flex;
+    margin: 20px;
+    align-items: left; 
+    padding: 16px 24px;
+  }
+
+  .headquarter-image {
+    margin: 15px;
+
+  }
+
+  .headquarter-image > img {
+    border-radius: 100px;
+  }
+
+  .headquarter-image > h3 {
+    text-align: center;
+  }
+
+  .clear{
+    border-top: 2px solid black;
+    margin: 20px 0;
   }
 
   @media only screen and (max-width: 600px) {
