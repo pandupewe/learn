@@ -1,29 +1,3 @@
-PS C:\Users\Mom\Desktop\Learn> gitbranch
-gitbranch : The term 'gitbranch' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was inclu
-ded, verify that the path is correct and try again.
-ndException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-PS C:\Users\Mom\Desktop\Learn> git branch                             fatal: not a git repository (or any of the parent directories): .git  
-PS C:\Users\Mom\Desktop\Learn> git init
-Initialized empty Git repository in C:/Users/Mom/Desktop/Learn/.git/  
-PS C:\Users\Mom\Desktop\Learn> git remote add origin https://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@github.com/tetyandriani/tesgit.git
-PS C:\Users\Mom\Desktop\Learn> git remote -v
-origin  https://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@github.com/tetyandriani/tesgit.git (fetch)
-origin  https://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@github.com/tetyandriani/tesgit.git (push)
- create mode 100644 profile.html
-PS C:\Users\Mom\Desktop\Learn> git push origin master
-Enumerating objects: 9, done.
-Counting objects: 100% (9/9), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (8/8), done.
-Writing objects: 100% (9/9), 9.09 KiB | 1.52 MiB/s, done.
-Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (1/1), done.
-To https://github.com/tetyandriani/tesgit.git
- * [new branch]      master -> master
-PS C:\Users\Mom\Desktop\Learn>
-
 git init
 git remote add origin https://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@github.com/pandupewe/tesgit.git
 git remote -v
