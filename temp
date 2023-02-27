@@ -27,3 +27,4 @@ PS C:\Users\Mom\Desktop\Learn>
 git init
 git remote add origin https://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@github.com/pandupewe/tesgit.git
 git remote -v
+git remote remove origin
